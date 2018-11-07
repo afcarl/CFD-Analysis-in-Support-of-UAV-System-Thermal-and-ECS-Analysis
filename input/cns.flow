@@ -1,0 +1,38 @@
+ $INPUT
+
+      IREAD =0, IWRIT =1, NQCHK =50,
+
+      LSTART = 1,1,
+      LSTOP  = 2000,3000,
+
+      TIMEST =3.0, COEF2 =0.30, COEF4 =0.64, IVARDT = 2,
+
+      TINF = 518.7
+
+      REFS = 575.0, REFG =1.0, REFL =1.0,
+
+      ALP =3.0, BETA=0.0, FSMACH =0.001,
+
+      FMACH(3) =0.42, FMACH(4)=0.42, FMACH(5)=0.42
+
+      FMACH(6) =0.46, FMACH(7)=0.42, FMACH(8)=0.42
+
+      FMACH(9) =0.5, 
+
+      NSEQ = 1,
+
+      NCPUS=1, NMGMAX=0,
+
+ $END
+
+ $TURB
+    
+      ITUR=.TRUE., RDISFN=.TRUE., ITURMOD=4, DTTUR=3.0, IDISFUN=1,
+
+      ITVARDT = 2,
+
+ $END
+
+ $REFERENCE
+      REFAR=73296., CREF=267.07, REFX=328.75, REFY=0.0, REFZ=107.0,
+ $END

@@ -1,0 +1,2 @@
+gcns.exe GCNS_FILELIST > OUTPUT
+
